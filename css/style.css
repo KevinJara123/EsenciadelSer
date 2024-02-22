@@ -1,0 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    max-width: 540px;
+    border-color: aquamarine;
+    width: 100%;
+
+}
+.items-info-adicional{
+ list-style-type: none;
+}
