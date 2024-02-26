@@ -1,14 +1,329 @@
+
+:root{
+    --padding-container:100px 0;}
 body {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+   
 }
-.card{
-    max-width: 540px;
-    border-color: aquamarine;
+.container{
+    width:90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.img-index{
+    width: 90px;
+}
+.hero{
     width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color:#fff;
+}
+.hero::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/principal.jpg);
+    background-size: cover;
+    z-index:-1;
+}
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav__title{
+    font-weight:300;
+}
+.nav__link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:max-content;
+    gap:2em;
+}
+.nav__link--menu {
+    transition: .7s opacity;
+    margin-top: 0;
+}
+.nav__links{
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__links:hover{
+    color: violet;
+}
+.nav__items{
+    list-style: none;
+}
+
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+.nav__img{
+    display: block;
+    width: 30px;
+}
+.nav__close{
+    display: var(--show,none);
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+.logo_miri{
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilos para los contenedores de cards */
+.container-service-presenciales{
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Establece un sombreado violeta */
+   
 
 }
-.items-info-adicional{
- list-style-type: none;
+
+.card img {
+    max-width: 240px;
+    height: 361px;
+    border-radius: 5px;
+    margin: auto;
+    
+}
+.card .icono-info{
+    width: 25px;
+    height: 25px;
+
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+} 
+.info-adicional{
+    list-style-type: none;
+}
+
+.info-barras{
+    border-color: violet;
+    width: 15rem;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+.info-barras:hover{
+    background-color: rgb(122, 0, 122);
+    color: #ddd;
+}
+
+
+
+
+
+/* PERFIL MIRIAM*/
+.card-soy {
+    display: flex; /* Utiliza flexbox para alinear los elementos en paralelo */
+    width: 80%; /* Ajusta el ancho del contenedor según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    border-radius: 10px; /* Ajusta el radio de los bordes según tus necesidades */
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Establece un sombreado violeta */
+    margin-bottom: 40px;
+  }
+  
+  .card-body {
+    flex: 1; /* Permite que el contenido se expanda para llenar el espacio restante */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+  }
+  
+  .card-img-bottom {
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    border-top-right-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
+    border-bottom-right-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
+  }
+
+/* footer */
+
+.pie-pagina{
+    width: 100%;
+    background-color: #f506e9;
+    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/principal.jpg);
+    background-size: cover;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color:rgb(255, 253, 253);
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-family:Drakoni Sans;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family:Drakoni Sans;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    border-radius: 6px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-2{
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+.grupo-2 a{
+    text-decoration: none;
+    color: #fffefe;
+}
+.grupo-2 a:hover{
+    color: #ffffff;
+}
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 1024px) {
+    .nav__menu{
+        display: block;
+    }
+    .nav__link--menu{
+        position: fixed;
+        background-color: rgba(110,9,121,1) ;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: .7s opacity;
+    }
+    .nav__link--show{
+        --show:block;
+        opacity: 1;
+        pointer-events: unset;
+    }
+    .nav__close{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        cursor: pointer;
+
+    }
+    
+    .card {
+        width: 100%; /* Cambiar el ancho a 100% en dispositivos móviles */
+    }
+     /*Footer*/
+     .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+   
+    
+    .card-container {
+        padding: 10px; /* Añadir un relleno interno para reducir el espacio en blanco alrededor de las cards */
+    }
+    .card {
+        margin-bottom: 10px; /* Reducir el margen inferior de las cards */
+    }
+     /*Footer*/
+     .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    /*Logo */
+   .logo-esencia{
+    width: 100px;
+   }
+   .card-soy {
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    align-items: center; /* Centra los elementos en el eje transversal */
+  }
+
+  .card-img-bottom {
+    width: 100%; /* Hace que la imagen ocupe el ancho completo del contenedor */
+    border-top-left-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0; /* Reinicia el radio de los bordes para dispositivos móviles */
+    border-bottom-right-radius: 0;}
 }
