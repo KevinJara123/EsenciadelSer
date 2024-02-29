@@ -169,35 +169,25 @@ ul{
     color: #ddd;
 }
 
-
 /* CLASES DE BARRAS*/
 .card-clases {
     display: flex; /* Utiliza flexbox para alinear los elementos en paralelo */
     width: 80%; /* Ajusta el ancho del contenedor según tus necesidades */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     border-radius: 10px; /* Ajusta el radio de los bordes según tus necesidades */
-    box-shadow: 0 0 20px rgba(128, 0, 128, 0.5); /* Establece un sombreado violeta */
-    background-color: #8500ad;
+    box-shadow: 0 0 10px rgb(211, 0, 211); /* Establece un sombreado violeta */
     margin-bottom: 40px;
+    margin-bottom: 10px;
   }
-  
   .card-body1 {
     flex: 1; /* Permite que el contenido se expanda para llenar el espacio restante */
     padding: 20px; /* Añade espacio alrededor del contenido */
-    color: #fff;
     font-family: italic;
   }
-  
-  .card-img-bottom {
-    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
-    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
-    border-top-right-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
-    border-bottom-right-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
-  }
   .button_slide1 {
-    color: #8500ad;
+    color: rgb(255, 255, 255);
     border: 2px solid#dd6dff;;
-    background: #ffffff;
+    background: #8500ad;
     border-radius: 10px;
     padding: 18px 36px;
     display: inline-block;
@@ -212,10 +202,23 @@ ul{
   }
   .button_slide1 a {
     text-decoration: none;
-    color: #8500ad;
+    color: #ddd;
   }
   .slide_left1:hover {
     box-shadow: inset 0 0 0 50px rgba(253, 26, 234, 0.5);
+  }
+  #outer1 {
+    width: 364px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+  } 
+  
+  
+  .card-img-bottom1 {
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    border-top-right-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
+    border-bottom-right-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
   }
 
 /* PERFIL MIRIAM*/
@@ -225,7 +228,7 @@ ul{
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     border-radius: 10px; /* Ajusta el radio de los bordes según tus necesidades */
     box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Establece un sombreado violeta */
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .card-body {
@@ -302,6 +305,7 @@ header .textos-header{
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+   
   }
   .button_slide a {
     text-decoration: none;
@@ -752,6 +756,41 @@ header .textos-header{
         grid-gap: 30px;
         padding: 35px 0px;
     }
+    .button_slide {
+        color: rgb(255, 255, 255);
+        border: 2px solid#dd6dff;;
+        background: #8500ad;
+        border-radius: 10px;
+        padding: 18px 36px;
+        display: inline-block;
+        font-family: Laurens Demo;
+        font-size: 14px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.5);
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+       
+      }
+      .button_slide1 {
+        color: rgb(255, 255, 255);
+        border: 2px solid#dd6dff;;
+        background: #8500ad;
+        border-radius: 10px;
+        padding: 18px 36px;
+        display: inline-block;
+        font-family: Laurens Demo;
+        font-size: 14px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.5);
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+       
+      }
+      
 }
 
 /* Media query para dispositivos móviles */
@@ -849,15 +888,28 @@ header .textos-header{
     flex-direction: column; /* Cambia la dirección del flexbox a columna */
     align-items: center; /* Centra los elementos en el eje transversal */
   }
-  .card-clases {
-    flex-direction: column; /* Cambia la dirección del flexbox a columna */
-    align-items: center; /* Centra los elementos en el eje transversal */
-  }
-
+  
+  
   .card-img-bottom {
     width: 100%; /* Hace que la imagen ocupe el ancho completo del contenedor */
     border-top-left-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0; /* Reinicia el radio de los bordes para dispositivos móviles */
-    border-bottom-right-radius: 0;}
-}
+    border-bottom-right-radius: 0;
+    }
+    .card-clases {
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    align-items: center; /* Centra los elementos en el eje transversal */
+     }
+  
+  .card-img-bottom1 {
+    width: 100%; /* Hace que la imagen ocupe el ancho completo del contenedor */
+    border-top-left-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0; /* Reinicia el radio de los bordes para dispositivos móviles */
+    border-bottom-right-radius: 0;
+    }
+  }
+  
+    
+  
