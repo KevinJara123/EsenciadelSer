@@ -180,7 +180,7 @@ ul{
     background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(295, 55%, 66%, 0.815));
     color: #ddd;
     margin-bottom: 40px;
-    margin-bottom: 10px;
+
   }
   .card-body1 {
     flex: 1; /* Permite que el contenido se expanda para llenar el espacio restante */
@@ -231,7 +231,7 @@ ul{
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     border-radius: 10px; /* Ajusta el radio de los bordes según tus necesidades */
     box-shadow: 0 0 10px rgba(128, 0, 128, 0.76); /* Establece un sombreado violeta */
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   
   .card-body {
@@ -241,7 +241,7 @@ ul{
   }
   
   .card-img-bottom {
-    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    width: 300px; /* Ajusta el ancho de la imagen según tus necesidades */
     height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
     border-top-right-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
     border-bottom-right-radius: 10px; /* Ajusta el radio de los bordes de la imagen */
