@@ -177,6 +177,8 @@ ul{
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     border-radius: 10px; /* Ajusta el radio de los bordes según tus necesidades */
     box-shadow: 0 0 10px rgb(211, 0, 211); /* Establece un sombreado violeta */
+    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(295, 55%, 66%, 0.815));
+    color: #ddd;
     margin-bottom: 40px;
     margin-bottom: 10px;
   }
@@ -188,7 +190,7 @@ ul{
   .button_slide1 {
     color: rgb(255, 255, 255);
     border: 2px solid#dd6dff;;
-    background: #8500ad;
+    background: #ffffff;
     border-radius: 10px;
     padding: 18px 36px;
     display: inline-block;
@@ -203,7 +205,7 @@ ul{
   }
   .button_slide1 a {
     text-decoration: none;
-    color: #ddd;
+    color: rgb(174, 0, 255);
   }
   .slide_left1:hover {
     box-shadow: inset 0 0 0 50px rgba(253, 26, 234, 0.5);
@@ -228,7 +230,7 @@ ul{
     width: 80%; /* Ajusta el ancho del contenedor según tus necesidades */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     border-radius: 10px; /* Ajusta el radio de los bordes según tus necesidades */
-    box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Establece un sombreado violeta */
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.76); /* Establece un sombreado violeta */
     margin-bottom: 20px;
   }
   
@@ -858,7 +860,7 @@ header .textos-header{
     .button_slide1 {
         color: rgb(255, 255, 255);
         border: 2px solid#dd6dff;;
-        background: #8500ad;
+        background: #ffffff;
         border-radius: 10px;
         padding: 18px 36px;
         display: inline-block;
