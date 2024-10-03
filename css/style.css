@@ -4,6 +4,9 @@
 
 :root{
     --padding-container:100px 0;}
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -37,6 +40,7 @@ body {
     display: grid;
     grid-template-rows: 100px 1fr;
     color:#fff;
+    overflow-x: hidden;
 }
 .hero::before{
     content:"";
@@ -86,6 +90,7 @@ body {
 
 .nav__menu{
     margin-left: auto;
+    margin-right: 15px;
     cursor: pointer;
     display: none;
 }
@@ -318,7 +323,6 @@ header .textos-header{
     box-shadow: inset 0 0 0 50px rgba(253, 26, 234, 0.5);
   }
   #outer {
-    width: 364px;
     margin: 20px auto 0 auto;
     text-align: center;
   } 
@@ -716,6 +720,10 @@ header .textos-header{
 }
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 1024px) {
+    .imagen-logo-principal img {
+     width: 24rem;
+     justify-items: center; 
+    }
     .nav__menu{
         display: block;
     }
