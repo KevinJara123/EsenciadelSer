@@ -49,7 +49,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/principal.jpg);
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/principal.jpg);
     background-size: cover;
     z-index:-1;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 .nav__links:hover{
-    color: violet;
+    color: rgb(0, 0, 0);
 }
 .nav__items{
     list-style: none;
@@ -131,7 +131,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-    box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Establece un sombreado violeta */
+    box-shadow: 0 0 10px #006b00; /* Establece un sombreado violeta */
    
 
 }
@@ -171,7 +171,7 @@ ul{
     
 }
 .info-barras:hover{
-    background-color: rgb(122, 0, 122);
+    background-color:#006b00;
     color: #ddd;
 }
 
@@ -181,8 +181,8 @@ ul{
     width: 80%; /* Ajusta el ancho del contenedor según tus necesidades */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     border-radius: 10px; /* Ajusta el radio de los bordes según tus necesidades */
-    box-shadow: 0 0 10px rgb(211, 0, 211); /* Establece un sombreado violeta */
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(295, 55%, 66%, 0.815));
+    box-shadow: 0 0 10px #006b00; /* Establece un sombreado verde */
+    background: linear-gradient(to right, #006b00,  hsla(110, 100%, 28%, 0.418));
     color: #ddd;
     margin-bottom: 40px;
 
@@ -193,8 +193,8 @@ ul{
     font-family: italic;
   }
   .button_slide1 {
-    color: rgb(255, 255, 255);
-    border: 2px solid#dd6dff;;
+    color: #006b00;
+    border: 2px solid#006b00;
     background: #ffffff;
     border-radius: 10px;
     padding: 18px 36px;
@@ -210,10 +210,14 @@ ul{
   }
   .button_slide1 a {
     text-decoration: none;
-    color: rgb(174, 0, 255);
+    color: #006b00;
+  }
+  .button_slide1 a:hover {
+    text-decoration: none;
+    color: #ffffff;
   }
   .slide_left1:hover {
-    box-shadow: inset 0 0 0 50px rgba(253, 26, 234, 0.5);
+    box-shadow: inset 0 0 0 50px #006b00;
   }
   #outer1 {
     width: 364px;
@@ -235,7 +239,7 @@ ul{
     width: 80%; /* Ajusta el ancho del contenedor según tus necesidades */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     border-radius: 10px; /* Ajusta el radio de los bordes según tus necesidades */
-    box-shadow: 0 0 10px rgba(128, 0, 128, 0.76); /* Establece un sombreado violeta */
+    box-shadow: 0 0 10px #006b00; /* Establece un sombreado verde */
     margin-bottom: 50px;
   }
   
@@ -271,7 +275,7 @@ ul{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/procesos1.jpg);
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/procesos1.jpg);
     background-size: cover;
     z-index:-1;
 }
@@ -300,8 +304,8 @@ header .textos-header{
 
 .button_slide {
     color: rgb(255, 255, 255);
-    border: 2px solid#dd6dff;;
-    background: #8500ad;
+    border: 2px solid#006b00;
+    background: #006b00;
     border-radius: 10px;
     padding: 18px 36px;
     display: inline-block;
@@ -319,8 +323,13 @@ header .textos-header{
     text-decoration: none;
     color: #ddd;
   }
+  .button_slide1 a:hover {
+    text-decoration: none;
+    color: #ddd;
+  }
+  
   .slide_left:hover {
-    box-shadow: inset 0 0 0 50px rgba(253, 26, 234, 0.5);
+    box-shadow: inset 0 0 0 50px #006b00;
   }
   #outer {
     margin: 20px auto 0 auto;
@@ -337,8 +346,8 @@ header .textos-header{
   }
   .pie-pagina-1{
     width: 100%;
-    background-color: #f506e9;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/procesos1.jpg);
+    background-color: #006b00;
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/procesos1.jpg);
     background-size: cover;
 }
 .pie-pagina-1 .grupo-1{
@@ -417,14 +426,14 @@ header .textos-header{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/facelift1.jpg);
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/facelift1.jpg);
     background-size: cover;
     z-index:-1;
 }
 .pie-pagina-2{
     width: 100%;
-    background-color: #f506e9;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/facelift1.jpg);
+    background-color: #006b00;
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/facelift1.jpg);
     background-size: cover;
 }
 .pie-pagina-2 .grupo-1{
@@ -502,14 +511,14 @@ header .textos-header{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/barras1.jpg);
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/barras1.jpg);
     background-size: cover;
     z-index:-1;
 }
 .pie-pagina-3{
     width: 100%;
-    background-color: #f506e9;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/barras1.jpg);
+    background-color: #006b00;
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/barras1.jpg);
     background-size: cover;
 }
 .pie-pagina-3 .grupo-1{
@@ -587,14 +596,14 @@ header .textos-header{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/reiki1.jpg);
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/reiki1.jpg);
     background-size: cover;
     z-index:-1;
 }
 .pie-pagina-4{
     width: 100%;
-    background-color: #f506e9;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/reiki1.jpg);
+    background-color: #006b00;
+    background: linear-gradient(to right,  #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/reiki1.jpg);
     background-size: cover;
 }
 .pie-pagina-4 .grupo-1{
@@ -658,8 +667,8 @@ header .textos-header{
 
 .pie-pagina{
     width: 100%;
-    background-color: #f506e9;
-    background: linear-gradient(to right,  rgba(110,9,121,1),  hsla(0, 0%, 0%, 0.418)), url(../images/principal.jpg);
+    background-color: #006b00;
+    background: linear-gradient(to right,   #006b00,  hsla(110, 100%, 28%, 0.418)), url(../images/principal.jpg);
     background-size: cover;
 }
 .pie-pagina .grupo-1{
@@ -703,7 +712,7 @@ header .textos-header{
     transition: all 300ms ease;
 }
 .pie-pagina .grupo-2{
-    background-color: rgba(110, 9, 121, 0.767);
+    background-color: #006b00;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
@@ -729,7 +738,7 @@ header .textos-header{
     }
     .nav__link--menu{
         position: fixed;
-        background-color: rgba(110,9,121,1) ;
+        background-color: #006b00 ;
         top: 0;
         left: 0;
         height: 100%;
@@ -769,8 +778,8 @@ header .textos-header{
     }
     .button_slide {
         color: rgb(255, 255, 255);
-        border: 2px solid#dd6dff;;
-        background: #8500ad;
+        border: 2px solid#088a03;
+        background: #006b00;
         border-radius: 10px;
         padding: 18px 36px;
         display: inline-block;
@@ -786,8 +795,8 @@ header .textos-header{
       }
       .button_slide1 {
         color: rgb(255, 255, 255);
-        border: 2px solid#dd6dff;;
-        background: #8500ad;
+        border: 2px solid#088a03;
+        background: #006b00;
         border-radius: 10px;
         padding: 18px 36px;
         display: inline-block;
@@ -801,6 +810,7 @@ header .textos-header{
         transition: ease-out 0.4s;
        
       }
+       
       
 }
 
@@ -811,7 +821,7 @@ header .textos-header{
     }
     .nav__link--menu{
         position: fixed;
-        background-color: rgba(110,9,121,1) ;
+        background-color: #006b00;
         top: 0;
         left: 0;
         height: 100%;
@@ -851,8 +861,8 @@ header .textos-header{
     }
     .button_slide {
         color: rgb(255, 255, 255);
-        border: 2px solid#dd6dff;;
-        background: #8500ad;
+        border: 2px solid#088a03;
+        background: #006b00;
         border-radius: 10px;
         padding: 18px 36px;
         display: inline-block;
@@ -867,7 +877,7 @@ header .textos-header{
     }
     .button_slide1 {
         color: rgb(255, 255, 255);
-        border: 2px solid#dd6dff;;
+        border: 2px solid#088a03;
         background: #ffffff;
         border-radius: 10px;
         padding: 18px 36px;
@@ -881,6 +891,7 @@ header .textos-header{
         -moz-transition: ease-out 0.4s;
         transition: ease-out 0.4s;
     }
+    
 }
 
 /* Media query para dispositivos móviles */
